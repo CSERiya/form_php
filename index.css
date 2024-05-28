@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80%;
+    /* background-color: rgb(198, 152, 241); */
+    padding: 34px;
+    margin: auto;
+} 
+
+ .container > h1 {
+    text-align: center;
+}
+.top{
+    text-align: center;
+    font-size: 18px;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='email']{
+    width: 80%;
+   padding: 7px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    display: block;
+    background-color: white;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+.mid{
+    margin-bottom: 5px;
+}
+
+.required::after {
+    content: " *";
+    color: red;
+    font-size: smaller;
+    margin-left: 0px;
+}
+
+input[type='radio']{
+    margin-left: 160px;
+    margin-bottom: 8px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -8px;
+}
+
+.btn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: purple;
+   padding: 10px;
+   font-size: 16px;
+   font-weight: 600;
+   border-radius: 0.2cm;  
+   color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.aec{
+    width: 100%;
+    height: 100vh;  /* Full viewport height */
+    position: fixed;  
+    z-index: -1;  /* Behind other elements */
+    opacity: 0.6;
+}
+
+.submitMsg{
+    color: green;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
